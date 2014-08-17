@@ -1,0 +1,14 @@
+1 - 	Criar bolinhas.
+
+2 - 	Sortear cores.
+
+3 - 	Colocar a linha e a coluna que se encontra.
+	Função que recebe 2 parametros referente a linha e a coluna usada.
+
+	Ex¹: nomeDaFuncao(1, 0)
+	Ex²: [C_0_0], [C_0_1], [C_1_0], [C_1_1]...
+
+4 - 	Setar um atributo no primeiro dot clicado.
+
+5 - 	Criar linha atraves de um mousedown com ela começando no dot e 
+	terminando no dot da mesma cor e com distancia de apenas 1 dot.

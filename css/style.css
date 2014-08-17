@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	cursor:pointer;
+}
+#tabuleiro {
+	width: 350px;
+	height: 350px;
+	margin: 50px auto;
+}
+.cel{
+	height: 15px;
+	width: 15px;
+	float: left;
+	padding: 10px;
+	border-radius: 30px;
+	transition:0.3s ease-in;
+}
+.dot{
+	background-color: #111;
+	height: 0px;
+	width: 0px;
+	float: left;
+	border-radius: 10px;
+	transform: translateX(-100px) translateY(-100px);
+	transition: 0.3s all;
+}
+.line{
+	height: 3px;
+	position: absolute;
+	transform-origin: 1px 0px;
+	-ms-transform-origin: 1px 0px;
+	-webkit-transform-origin: 1px 0px; 
+	top: 47%;
+	left: 47%;
+	z-index: 999;
+}
